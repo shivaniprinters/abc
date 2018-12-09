@@ -458,7 +458,12 @@ html, body {
 /******************************//*MOBILES*/ /*******************************************/
 
 @media screen and (max-width: 640px) {
-
+    body, html {
+        width: 100%;
+    }
+    .navbar {
+        width: 100%;
+    }
     .bullets {
         display: none;
     }
