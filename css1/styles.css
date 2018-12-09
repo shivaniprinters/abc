@@ -55,9 +55,10 @@ header {
 .leading-bigtext {
   margin-right: 60px;
   font-weight: bold;
-  font-size: 24vw;
-  padding-right: 20px;
+  font-size: 20vw;
+
   align-items: center;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 @media (min-width: 700px) {
@@ -83,7 +84,7 @@ article {
 }
 
 .article-img {
-  height: 200px;
+  height: 250px;
   width: 100%;
   object-fit: cover;
 }
@@ -93,7 +94,9 @@ article {
   bottom: 0;
   width: 100%;
   padding: 10px;
-  background-color: rgba(255, 255, 255, 0.2);
+  color: black;
+  background-color: rgba(255, 255, 255, 0.8);
+  
 }
 
 /**************************//*Preloader*//**************/
