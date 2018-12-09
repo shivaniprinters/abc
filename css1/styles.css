@@ -39,7 +39,7 @@ header {
 
 .leading {
   height: 240px;
-  max-width: 100%;
+  width: 100%;
   margin-bottom: 30px;
   margin-top: 70px;
   padding: 30px;
