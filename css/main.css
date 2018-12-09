@@ -60,14 +60,15 @@ html, body {
 }
 
 .nav-item:hover {
-    background-color: #555;
+    background-color: #03A9F4;
 
 }
 .nav-item1{
     font-size: 20pt;
+	
 }
 .nav-item1:hover{
-	background-color: #550;
+	background-color: #8BC34A;
 }
 
 .lang {
@@ -99,7 +100,7 @@ html, body {
     text-align: center;
     padding: 169px 199px 150px 257px;
     color: black;
-    background-color: #F9F9F1;
+    background-color: #FFF;
 }
 
 h1 {
@@ -108,17 +109,26 @@ h1 {
     flex-grow: 3;
     letter-spacing: 8px;
 }
-
-.intro-text {
-    text-align: left;
+.intro-text2 {
+    text-align: center;
     letter-spacing: 0.03em;
     line-height: 1.5em;
+    font-size: 18pt;
+	font-family: Lato-Regular;
+	
+}
+
+.intro-text {
+    text-align: justify;
+    letter-spacing: 0.03em;
+    line-height: 1.5em;
+	font-family: Lato-Regular;
     font-size: 18pt;
 }
 
 /************************//*Menu*//***********************/
 
-#Menu {
+#Products {
     width: 100%;
     height: 60%;
     color: #FFF;
@@ -267,19 +277,20 @@ td {
     width: 30%;
     margin: 6% 50% 10% 35%;
     text-align: center;
+	font-size: 13pt;
     border: 1px solid white;
 
 }
 
 .booking:hover {
-    background-color: #555;
-
+    background-color: #8BC34A;
 }
 
 .booking>a {
     color: white;
     text-decoration: none;
 }
+
 
 /************************//*CONTACT*//***********************/
 
@@ -543,7 +554,7 @@ textarea:focus, input:focus {
 
 
 .phone {
-    color: #1e66d6;
+    color: #8BC34A;
 }
 
 
