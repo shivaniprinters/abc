@@ -260,12 +260,11 @@ article {
     background-position: center;
     background-repeat: no-repeat;
 }
-
-
 /************************//*Default*//*************************/
 
 html, body {
     margin: auto;
+    
     color: white;
 }
 
@@ -345,6 +344,7 @@ html, body {
 .show {
     display: block;
 }
+
 /*******************************//*TABLETS*//************************************/
 
 @media screen and (max-width: 985px) {

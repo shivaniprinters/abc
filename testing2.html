@@ -1,98 +1,117 @@
 <!DOCTYPE html>
 <html>
 
-	<head>
-		<meta charset="utf-8">
+<head>
+ <meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="keywords" content="">
 		<meta name="description" content="">
 		
 		<title>Shivani Printers | All-in-one Printing Solutions</title>
-		
 		<link rel="stylesheet" href="css/normalize.css">
-		<link rel="stylesheet" href="css/main.css">
-		
-		<script src="js/preload.js" charset="utf-8"></script>
-		<script src="https://code.jquery.com/jquery-3.1.1.min.js" charset="utf-8"></script>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	</head>
+ <link rel="stylesheet" href="css/main.css">
+ <script src="js/preload.js" charset="utf-8"></script>
+ <script src="https://code.jquery.com/jquery-3.1.1.min.js" charset="utf-8"></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-	<body onload="unFold();">
 
-		<div id="preloader" class="preloader">
-			<div class="preload preloader1"></div>
-			<div class="preload preloader2"></div>
+</head>
 
-			<svg version="1.1" id="flash1" class="flash" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="-223 25 512 512" style="enable-background:new -223 25 512 512;" xml:space="preserve">
-				<style type="text/css">
-					.st8{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}
-				</style>
-			</svg>
-			
-			<script>
-				var flash = document.getElementById("flash1");
-   				function animate() 
-				{
-					flash.style.opacity = Math.random();
-					window.requestAnimationFrame(animate);
-				}
-				animate();
-			</script>
-		</div>
+<body onload="unFold();">
+
+ <div id="preloader" class="preloader">
+  <div class="preload preloader1"></div>
+  <div class="preload preloader2"></div>
+
+  <svg version="1.1" id="flash1" class="flash" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="-223 25 512 512" style="enable-background:new -223 25 512 512;" xml:space="preserve">
+        <style type="text/css">
+        	.st8{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}
+        </style>
+        </svg>
+
+  <script>
+   var flash = document.getElementById("flash1");
+   
+   function animate() {
+    flash.style.opacity = Math.random();
+   
+    window.requestAnimationFrame(animate);
+   }
+   
+   animate();
+  </script>
+
+
+ </div>
  <!--End of Preloader-->
 
-		<nav class="navbar">
-			<div class="burger-nav">
-				<div class="header"></div>
-				<ul class="open">
-					<li><a href="#About">ABOUT US</a></li>
-					<li><a href="#Products">MENU</a></li>
-					<li><a href="#Contact">CONTACT</a></li>
-					<li><a href="#Something">Something</a></li>
-				</ul>
-			</div>
+ <nav class="navbar">
+  <div class="burger-nav">
+   <div class="header"></div>
+   <ul class="open">
+    <li><a href="#About">ABOUT US</a></li>
+    <li><a href="#Menu">MENU</a></li>
+    <li><a href="#Contact">CONTACT</a></li>
+    <li class="lang-drop"><a href="#Lang">In English</a></li>
+    <div class="lang-content">
+     <ul class="lang-opt">
+      <li><a href="est.html">Eesti</a></li>
+      <li><a href="rus.html">Русский</a></li>
+     </ul>
+    </div>
+   </ul>
+  </div>
   <!--End of burger-nav-->
-			
-			<ul class="links">
-				<li><a href="#About" class="nav-item">ABOUT US</a></li>
-				<li><a href="#Products" class="nav-item">MENU</a></li>
-				<li><a href="index.html" class="nav-item1">~ SHIVANI PRINTERS ~</a></li>
-				<li><a href="#Contact" class="nav-item">CONTACT</a></li>
-				<li><a href="#Something" class="nav-item">SOMETHING</a></li>
-			</ul>
-		</nav>
+  <ul class="links">
+   <li><a href="#About" class="nav-item">ABOUT US</a></li>
+   <li><a href="#Menu" class="nav-item">MENU</a></li>
+   <li>
+    <a href="#Home" class="" id="Logo"></a>
+   </li>
+   <li><a href="#Contact" class="nav-item">CONTACT</a></li>
+   <li><a href="#Lang" class="nav-item lang">in English</a>
+    <!-- <img src="img/down-arrow.svg" id="arrow"> -->
+    <div class="nav-content">
+     <div class="nav-sub">
+      <ul>
+       <li><a href="est.html">Eesti</a></li>
+       <li><a href="rus.html">Русский</a></li>
+      </ul>
+     </div>
+    </div>
+    <!--End of dropdown content-->
+   </li>
+
+  </ul>
+ </nav>
  <!--End of Navbar-->
 
-		<div class="slider" id="Home">
-			<div class="controllers">
-				<li><img src="img/backward-arrow.svg" class="prev"></li>
-				<li><img src="img/arrow.svg" class="next"></li>
-			</div>
-			<div class="slide-viewer">
-				<div class="slides">
-					<div class="slide slide-1">
-						<img src="https://raw.githubusercontent.com/daysleeperx/cloud_bar/master/img/codepen1.png" alt="">
-					</div>
-					<div class="slide slide-2">
-						<img src="https://raw.githubusercontent.com/daysleeperx/cloud_bar/master/img/slide3.png" alt="">
-					</div>
-					<div class="slide slide-3">
-						<img src="https://raw.githubusercontent.com/daysleeperx/cloud_bar/master/img/codepen3.png" alt="">
-					</div>
-					<div class="slide slide-4">
-						<img src="https://raw.githubusercontent.com/daysleeperx/cloud_bar/master/img/codepen3.png" alt="">
-					</div>
-				</div>
-			</div>
+ <div class="slider" id="Home">
 
-			<div class="bullets"></div>
+  <div class="controllers">
+   <li><img src="img/backward-arrow.svg" class="prev"></li>
+   <li><img src="img/arrow.svg" class="next"></li>
+  </div>
 
-			<p class="scrolltxt">SCROLL</p>
-			<div class="scroll"></div>
-		</div>
+
+  <div class="slide-viewer">
+   <div class="slides">
+    <div class="slide slide-1"><img src="https://raw.githubusercontent.com/daysleeperx/cloud_bar/master/img/codepen1.png" alt=""></div>
+    <div class="slide slide-2"><img src="https://raw.githubusercontent.com/daysleeperx/cloud_bar/master/img/slide3.png" alt=""></div>
+    <div class="slide slide-3"><img src="https://raw.githubusercontent.com/daysleeperx/cloud_bar/master/img/codepen3.png" alt=""></div>
+   </div>
+  </div>
+
+  <div class="bullets">
+
+  </div>
+
+  <p class="scrolltxt">SCROLL</p>
+
+  <div class="scroll"></div>
+ </div>
  <!--End of Slider-->
-
-		<div class="sections">
+ <div class="sections">
 			<div id="About">
 				<h1>SHIVANI PRINTERS</h1>
 				<p class="intro-text2"><i>Simply put, we provide you top-quality printed products at affordable prices.</i></p>
@@ -106,85 +125,101 @@
 				Our wide range of quality products at affordable prices, along with design tools suited to every skill level and need, mean everyone can create the customised materials they need to get their message across.
 				</p>
 			</div>
- <!--End of About Section-->			
-			
-			<div id="Products" style="min-height: 1020px; background: black">
-				<div class="title">
-					<h2>OUR PRODUCTS<br></h2>
-					<p class="intro-text1">Regular and Custom orders accepted</p>
-				<!--End of Title-->
+ <!--End of About Section-->
+ 
+ 
+  <div id="Menu" style="min-height: 1020px; background: black">
+
+   <div class="title">
+    <h2>MENU <br>(coming soon)</h2>
+    <svg version="1.1" class="burger" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="-377 179.4 203.6 203.6" style="enable-background:new -377 179.4 203.6 203.6;" xml:space="preserve">
+                    <style type="text/css">
+                    	.st0{fill:none;stroke:#FFF;stroke-width:6;stroke-miterlimit:10;}
+                    </style>
+                    <path class="st0" d="M-362.1,345.5c0,0-1-24.5,28.1-32h46.7c0,0,10.1,0.5,17.8,6.4l-5.7-75.8h-6.1l2.3-10.1h86.5l3.5,9.8h-5.7
+                    	l-12.6,135.1h-151.9l-2.9-4.3v-12.3l95.6,0.2l0.9,0"/>
+                    <line class="st0" x1="-269.5" y1="319.9" x2="-264" y2="378.9"/>
+                    <polyline class="st0" points="-267,347.1 -362.1,347.1 -361.9,342.1 "/>
+                    <path class="st0" d="M-353.3,362.3c0,0-9-6.7,0-15.2"/>
+                    <line class="st0" x1="-275.2" y1="244.1" x2="-194.7" y2="243.8"/>
+                    <path class="st0" d="M-234.9,234v-20.2c0,0-1-7.8,10.2-14.8l26.5-15.9"/>
+                    </svg>
+   </div>
+   <!--End of Title-->
 
 
-					<div class="tables">
-						<div class="column1">
-							<table class="burgers">
-								<tr>
-									<th class="number">1</th>
-									<th>BURGERS</th>
-								</tr>
-								<tr>
-									<td></td>
-									<td>
-										<h4>Burgers</h4><br>
-										<h4>Burgers</h4><br>
-										<h4>Burgers</h4><br>
-										<h4>Burgers</h4><br>
-										<h4>Burgers</h4><br>
-									</td>
-								</tr>
-							</table>
-							
-							<table class="vapes">
-								<tr>
-									<th class="number">3</th>
-									<th>VAPES</th>
-								</tr>
-								<tr>
-								   <td></td>
-								   <td>
-										<h4>Vapes</h4><br>
-										<h4>Vapes</h4><br>
-										<h4>Vapes</h4><br>
-										<h4>Vapes</h4><br>
-										<h4>Vapes</h4><br>
-									</td>
-								</tr>
-							</table>
-						</div>
+   <div class="tables">
+    <div class="column1">
+     <table class="burgers">
+      <tr>
+       <th class="number">1</th>
+       <th>BURGERS</th>
+      </tr>
+      <tr>
+       <td></td>
+       <td>
+        <h4>Burgers</h4><br>
+        <h4>Burgers</h4><br>
+        <h4>Burgers</h4><br>
+        <h4>Burgers</h4><br>
+        <h4>Burgers</h4><br>
+       </td>
+      </tr>
+     </table>
 
-						<div class="column2">
-							<table class="cocktails">
-								<tr>
-								   <th class="number">2</th>
-								   <th>COCKTAILS</th>
-								</tr>
-								<tr>
-								   <td></td>
-								   <td>
-										<h4>Cocktails</h4><br>
-										<h4>Cocktails</h4><br>
-										<h4>Cocktails</h4><br>
-										<h4>Cocktails</h4><br>
-										<h4>Cocktails</h4><br>
-										<h4>Cocktails</h4><br>
-										<h4>Cocktails</h4><br>
-										<h4>Cocktails</h4><br>
-										<h4>Cocktails</h4><br>
-										<h4>Cocktails</h4><br>
-										<h4>Cocktails</h4><br>
-								   </td>
-								</tr>
-							</table>
-						</div>
-					</div>
-					<!--End of Tables-->
+     <table class="vapes">
+      <tr>
+       <th class="number">3</th>
+       <th>VAPES</th>
+      </tr>
+      <tr>
+       <td></td>
+       <td>
+        <h4>Vapes</h4><br>
+        <h4>Vapes</h4><br>
+        <h4>Vapes</h4><br>
+        <h4>Vapes</h4><br>
+        <h4>Vapes</h4><br>
+       </td>
+      </tr>
+     </table>
+    </div>
 
-					<div class="booking">
-						<a href="products.html"><h2>ALL PRODUCTS</h2></a>
-					</div>
-					<!--End of Booking!-->
-				</div>
-		  <!--End of Menu-->
+    <div class="column2">
+     <table class="cocktails">
+      <tr>
+       <th class="number">2</th>
+       <th>COCKTAILS</th>
+      </tr>
+      <tr>
+       <td></td>
+       <td>
+        <h4>Cocktails</h4><br>
+        <h4>Cocktails</h4><br>
+        <h4>Cocktails</h4><br>
+        <h4>Cocktails</h4><br>
+        <h4>Cocktails</h4><br>
+        <h4>Cocktails</h4><br>
+        <h4>Cocktails</h4><br>
+        <h4>Cocktails</h4><br>
+        <h4>Cocktails</h4><br>
+        <h4>Cocktails</h4><br>
+        <h4>Cocktails</h4><br>
+       </td>
+      </tr>
+     </table>
+
+
+    </div>
+   </div>
+   <!--End of Tables-->
+
+   <div class="booking">
+    <a href="#book"><h2>BOOK A TABLE</h2></a>
+   </div>
+   <!--End of Booking!-->
+  </div>
+  <!--End of Menu-->
 
   <div id="Contact" style="min-height: 1300px" background="black">
    <div id="map"></div>
@@ -193,8 +228,8 @@
     function initMap() {
      var map = new google.maps.Map(document.getElementById("map"), {
       center: {
-       lat: 25.614269,
-       lng: 85.153701
+       lat: 59.434761,
+       lng: 24.762599
       },
       zoom: 15,
       gestureHandling: "none",
@@ -418,7 +453,7 @@
         elementType: "all",
         stylers: [
          {
-          hue: "#91c7fd"
+          hue: "#e9ebed"
          },
          {
           saturation: -78
@@ -436,8 +471,8 @@
     
      var marker = new google.maps.Marker({
       position: {
-       lat: 25.614269,
-       lng: 85.153701
+       lat: 59.434761,
+       lng: 24.762599
       },
       map: map
      });
@@ -478,28 +513,41 @@
      <!--End of Contact Form-->
 
      <div class="address-container">
+      <div class="logo">
+       <svg version="1.1" id="Layer_2" class="vape" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 311.5 410.8" style="enable-background:new 0 0 311.5 410.8;" xml:space="preserve">
+                            <style type="text/css">
+                	.st3{fill:none;stroke:#FFF;stroke-miterlimit:10;stroke-width:6px;}
+                            </style>
+                        <rect id="XMLID_2_" x="70.8" y="129" transform="matrix(-0.7431 -0.6691 0.6691 -0.7431 83.6609 547.1416)" class="st3" width="152" height="257"/>
+                        <polyline id="XMLID_1_" class="st3" points="218.4,149.7 291.6,68.3 248.9,29.8 176.3,111.2 "/>
+                        <polyline id="XMLID_4_" class="st3" points="255.6,36.6 276,13.9 305,40 284.6,62.7 "/>
+                        <line id="XMLID_5_" class="st3" x1="234.9" y1="45.4" x2="277.2" y2="83.6"/>
+                        <line id="XMLID_6_" class="st3" x1="191.4" y1="93.7" x2="233.7" y2="131.9"/>
+                        <line id="XMLID_7_" class="st3" x1="248.3" y1="58.2" x2="204.8" y2="106.5"/>
+                        <line id="XMLID_8_" class="st3" x1="263.1" y1="71.6" x2="219.6" y2="119.9"/>
+                        <rect id="XMLID_3_" x="87.1" y="161" transform="matrix(-0.7431 -0.6691 0.6691 -0.7431 80.3177 546.7495)" class="st3" width="116" height="194"/>
+                        <polyline id="XMLID_10_" class="st3" points="237.4,269.8 246,277.5 209.8,317.6 201.3,309.9 "/>
+                        <polyline id="XMLID_11_" class="st3" points="194.6,317.3 202.8,324.7 191.8,337.7 183.2,330 "/>
+                        <polyline id="XMLID_12_" class="st3" points="177.2,336.6 185,343.7 172.9,357 165.1,350 "/>
+                        <path id="XMLID_9_" class="st3" d="M97.4,507"/>
+                    </svg>
 
+      </div>
 
       <div class="contact-info">
-		<p><u>Shivani Printers</u></br></br>
-		Address: </br>
-		Jahaji Kothi, Dariyapur </br>
-		near Dr RC Pal, Kadamkuan </br>
-        Patna - 800006.
+       <p>Cloud Bar </br>
+        is located in Tallinn City Center, </br>
+        Gonsiori 12, Tallinn, Estonia
        </p>
 
 
-       <p>Contact: </br>
-	   <span class="phone">+91 93048 10181</span></br>
-	   <span class="phone">+91 87577 79130</span></br>
+       <p>Info: <span class="phone">202-555-0116</span></br>
+        <a href="mailto:info@cloudbar.ee?subject=feedback">info@cloudbar.ee</a>
        </p>
-		
-		<p>Email: </br>
-		<span class="phone">printer.shivani@gmail.com</span></br>
-		</p>
-       
-	   <p>Open: </br>
-        Mon-Sat 10 AM - 8 PM
+
+
+       <p>Open: </br>
+        Mon-Sat 6 PM-11PM
        </p>
       </div>
      </div>
@@ -509,7 +557,7 @@
     </div>
     <!--End of Footer content-->
 
-    <!--div class="bottom-links">
+    <div class="bottom-links">
      <div class="social">
       <a href="https://www.facebook.com">
        <svg version="1.1" id="Layer_1" class="social-link fb" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="-471 272 17 17" style="enable-background:new -471 272 17 17;" xml:space="preserve">
@@ -564,12 +612,12 @@
                         </svg>
       </a>
 
-     </div-->
+     </div>
      <!--End of Social-->
 
 
      <div class="copiright">
-      ©Copyright 2018 Shivani Printers
+      ©Copyright 2017 Cloud Bar OÜ
      </div>
     </div>
     <!--End of Bottom Links-->
