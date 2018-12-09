@@ -602,7 +602,6 @@ textarea:focus, input:focus {
   width: 100%;
   height: 0;
   padding-bottom: 50%;
-  background-color: #000;
 }
 
 .slide-viewer {
@@ -897,7 +896,167 @@ textarea:focus, input:focus {
 
 /*********************************//*MEDIA QUERIES*//*****************************/
 
+/*******************************//*TABLETS*//************************************/
 
+@media screen and (max-width: 985px) {
+    .burger-nav {
+        display: block;
+        height: 91px;
+        width: 100%;
+        background: url(menu.svg) no-repeat;
+    }
 
-/******************************//*GRID*/ /*******************************************/
+    .header {
+        height: 91px;
+        width: 100%;
+    }
 
+    .lang-drop {
+        background: url(down-arrow.svg) no-repeat;
+        background-size: 3%;
+        background-position: 90%;
+    }
+
+    .links {
+        display: none;
+    }
+
+    .open {
+        position: absolute;
+        list-style: none;
+        top: 78px;
+        background-color: #000;
+        width: 100%;
+        padding: 0;
+    }
+
+    .open li {
+        width: 100%;
+        padding: 15px 10px 10px 10px;
+        font-size: x-large;
+        border-bottom: 1px solid #444;
+    }
+
+    .open li a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .open li:hover {
+        background-color: #555;
+    }
+
+    li {
+        display: none;
+    }
+
+    .column1 {
+        width: 100%;
+        margin: 10%;
+    }
+
+    .column2 {
+        width: 100%;
+        margin: 10%;
+        margin-top: -6%;
+    }
+
+    .booking {
+        width: 50%;
+        margin: 0 50% 10% 27%;
+    }
+
+    #Menu {
+        padding-bottom: 10px;
+    }
+
+    .st0 {
+        display: none;
+    }
+
+    #About {
+        padding: 169px 41px 150px 35px;
+    }
+
+    .intro-text {
+        text-align: center;
+    }
+
+    .topBefore {
+        width: 100%;
+    }
+
+    .address-container {
+        width: 100%;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .scroll {
+        display: none;
+    }
+
+    .scrolltxt {
+        display: none;
+    }
+}
+
+/******************************//*MOBILES*/ /*******************************************/
+
+@media screen and (max-width: 640px) {
+
+    .bullets {
+        display: none;
+    }
+
+    h1 {
+        font-size: 25pt;
+    }
+
+    .scroll {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 460px) {
+    h1 {
+        font-size: 20pt;
+    }
+
+    .social {
+        width: 100%;
+    }
+
+    .social-link {
+        width: 40px;
+    }
+
+    .footer-content {
+        border: none;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    .topBefore h2 {
+        font-size: 25pt;
+
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    body, html {
+        width: 320px;
+    }
+    .navbar {
+        width: 320px;
+    }
+    .slider {
+        width: 320px;
+    }
+
+}
