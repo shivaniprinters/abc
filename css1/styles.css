@@ -294,7 +294,7 @@ html, body {
 }
 
 .nav-sub {
-    height: 60px;
+    height: 90px;
 }
 
 .nav-sub ul {
@@ -346,7 +346,6 @@ html, body {
 .show {
     display: block;
 }
-
 
 /*******************************//*TABLETS*//************************************/
 
