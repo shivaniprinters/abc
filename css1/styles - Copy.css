@@ -103,7 +103,6 @@ article {
   width: 100%;
   padding: 10px;
   color: black;
-  font-size: 18px;
   background-color: rgba(255, 255, 255, 0.8);
   
 }
@@ -295,6 +294,11 @@ html, body {
     overflow: hidden;
     background-color: #000;
     max-height: 0;
+	
+	display: flex;
+    display:-webkit-flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
 }
 
 .nav-sub {
@@ -356,13 +360,13 @@ html, body {
 @media screen and (max-width: 985px) {
     .burger-nav {
         display: block;
-        height: 91px;
+        height: 61px;
         width: 100%;
         background: url(menu.svg) no-repeat;
     }
 
     .header {
-        height: 91px;
+        height: 61px;
         width: 100%;
     }
 
@@ -467,7 +471,7 @@ html, body {
     }
 
     h1 {
-        font-size: 20pt;
+        font-size: 25pt;
     }
 
     .scroll {
