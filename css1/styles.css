@@ -353,13 +353,13 @@ html, body {
 @media screen and (max-width: 985px) {
     .burger-nav {
         display: block;
-        height: 80px;
+        height: 60px;
         width: 100%;
         background: url(menu.svg) no-repeat;
     }
 
     .header {
-        height: 91px;
+        height: 81px;
         width: 100%;
     }
 
