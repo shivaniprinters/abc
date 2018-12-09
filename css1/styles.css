@@ -286,7 +286,7 @@ html, body {
 .nav-content {
     position: absolute;
     width: 212.06px;
-    height: 60px;
+    height: 90px;
     top: 90px;
     overflow: hidden;
     background-color: #000;
@@ -294,7 +294,7 @@ html, body {
 }
 
 .nav-sub {
-    height: 90px;
+    height: 60px;
 }
 
 .nav-sub ul {
