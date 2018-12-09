@@ -353,13 +353,13 @@ html, body {
 @media screen and (max-width: 985px) {
     .burger-nav {
         display: block;
-        height: 60px;
+        height: 61px;
         width: 100%;
         background: url(menu.svg) no-repeat;
     }
 
     .header {
-        height: 81px;
+        height: 61px;
         width: 100%;
     }
 
@@ -458,12 +458,7 @@ html, body {
 /******************************//*MOBILES*/ /*******************************************/
 
 @media screen and (max-width: 640px) {
-    body, html {
-        width: 100%;
-    }
-    .navbar {
-        width: 100%;
-    }
+
     .bullets {
         display: none;
     }
@@ -480,7 +475,7 @@ html, body {
 
 @media screen and (max-width: 460px) {
     h1 {
-        font-size: 15pt;
+        font-size: 18pt;
     }
 
     .social {
@@ -507,10 +502,10 @@ html, body {
 
 @media screen and (max-width: 320px) {
     body, html {
-        width: 100%;
+        width: 320px;
     }
     .navbar {
-        width: 100%;
+        width: 320px;
     }
     .slider {
         width: 320px;
