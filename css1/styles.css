@@ -39,7 +39,7 @@ header {
 
 .leading {
   height: 240px;
-  width: 100%;
+  max-width: 100%;
   margin-bottom: 30px;
   margin-top: 70px;
   padding: 30px;
@@ -201,8 +201,8 @@ article {
 
 /************************//*Navbar*//*************************/
 .navbar {
-    width: 100%;
-    height: 90px;
+    width: 100%;								/************************//*Navbar*//*************************/
+    height: 80px;
     z-index: 999;
     top: 0px;
     margin: 0 auto;
@@ -286,7 +286,7 @@ html, body {
 .nav-content {
     position: absolute;
     width: 212.06px;
-    height: 90px;
+    height: 60px;
     top: 90px;
     overflow: hidden;
     background-color: #000;
