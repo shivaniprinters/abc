@@ -462,7 +462,7 @@ html, body {
     }
 
     h1 {
-        font-size: 48pt;
+        font-size: 25pt;
     }
 
     .scroll {
@@ -473,7 +473,7 @@ html, body {
 
 @media screen and (max-width: 460px) {
     h1 {
-        font-size: 28pt;
+        font-size: 15pt;
     }
 
     .social {
@@ -500,10 +500,10 @@ html, body {
 
 @media screen and (max-width: 320px) {
     body, html {
-        width: 320px;
+        width: 100%;
     }
     .navbar {
-        width: 320px;
+        width: 100%;
     }
     .slider {
         width: 320px;
