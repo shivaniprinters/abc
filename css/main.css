@@ -10,16 +10,8 @@ html, body {
 }
 
 @font-face {
-   font-family: "SourceSansPro-Regular";
-   src: url("https://github.com/adobe-fonts/source-sans-pro/blob/release/TTF/SourceSansPro-Regular.ttf");
-}
-@font-face {
-   font-family: "Helvetica-Bold";
-   src: url("https://github.com/mownier/sample-chrome-extension/blob/master/fonts/Helvetica-Bold.ttf");
-}
-@font-face {
    font-family: "Lato-Regular";
-   src: url("https://github.com/google/fonts/blob/master/ofl/lato/Lato-Regular.ttf");
+   src: url("https://raw.githubusercontent.com/google/fonts/ofl/lato/Lato-Regular.ttf");
 }
 
 @font-face {  /*For IE*/
