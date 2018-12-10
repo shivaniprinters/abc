@@ -45,7 +45,7 @@ header {
   padding: 30px;
   color: white;
   /*background: url(2.jpg) center #333 no-repeat;*/
-  background: -webkit-linear-gradient(to right, #000428, #004e92); /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, #000428, #004e92); 
   background: linear-gradient(to right, #000428, #004e92);
   background-size: cover;
   align-items: center;
