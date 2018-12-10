@@ -9,6 +9,11 @@ html, body {
    src: url("https://raw.githubusercontent.com/daysleeperx/cloud_bar/master/img/Kankin.ttf");
 }
 
+@font-face {
+   font-family: "SourceSansPro";
+   src: url("https://github.com/adobe-fonts/source-sans-pro/blob/release/TTF/SourceSansPro-Regular.ttf?raw=true");
+}
+
 @font-face {  /*For IE*/
     font-family: "Kankin";
     src: url("https://raw.githubusercontent.com/daysleeperx/cloud_bar/master/img/Kankin.eot");
