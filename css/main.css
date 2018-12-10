@@ -33,7 +33,7 @@ html, body {
     border-bottom: double 4px #FFF;
     justify-content: space-around;
     -webkit-justify-content: space-around;
-    font-family: kankin;
+    font-family: SourceSansPro;
 }
 
 .links {
