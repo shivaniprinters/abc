@@ -9,11 +9,6 @@ html, body {
    src: url("https://raw.githubusercontent.com/daysleeperx/cloud_bar/master/img/Kankin.ttf");
 }
 
-@font-face {
-   font-family: "Lato-Regular";
-   src: url("https://raw.githubusercontent.com/google/fonts/ofl/lato/Lato-Regular.ttf");
-}
-
 @font-face {  /*For IE*/
     font-family: "Kankin";
     src: url("https://raw.githubusercontent.com/daysleeperx/cloud_bar/master/img/Kankin.eot");
