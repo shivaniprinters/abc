@@ -9,10 +9,10 @@ html, body {
    src: url("https://raw.githubusercontent.com/daysleeperx/cloud_bar/master/img/Kankin.ttf");
 }
 
-@font-face {
+/*@font-face {
    font-family: "SourceSansPro";
    src: url("https://github.com/adobe-fonts/source-sans-pro/blob/release/TTF/SourceSansPro-Regular.ttf?raw=true");
-}
+}*/
 
 @font-face {  /*For IE*/
     font-family: "Kankin";
@@ -33,7 +33,7 @@ html, body {
     border-bottom: double 4px #FFF;
     justify-content: space-around;
     -webkit-justify-content: space-around;
-    font-family: SourceSansPro;
+    font-family: Kankin;
 }
 
 .links {
