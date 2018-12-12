@@ -459,7 +459,7 @@
 
     <div class="footer-content">
 
-     <form id="form" class="topBefore">
+     <form id="form" class="topBefore" form action="mailto:printer.shivani@gmail.com" method="post" enctype="text/plain">
 
       <h2>GET IN TOUCH</h2>
 
@@ -481,10 +481,16 @@
 
 
       <textarea name="message" id="message" type="text"></textarea>
-      <input id="submit" type="submit" value="SEND">
+      <p><input id="submit" type="submit" value="SEND" onclick="clearFields()">
+	  <input id="submit" type="reset" value="RESET"></p>
 
 
      </form>
+	<script>
+		function clearFields() {
+		document.getElementById("form").reset();
+		}
+	</script>
      <!--End of Contact Form-->
 
      <div id ="address" class="address-container">
