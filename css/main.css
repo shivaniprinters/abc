@@ -226,7 +226,8 @@ h2 {
 h4 {
     margin: 0;
     letter-spacing: 0.08em;
-    font-family: SourceSansPro;
+	font-size: 25px;
+	font-family: SourceSansPro;
 }
 
 th, td {
@@ -252,12 +253,24 @@ td {
     margin-bottom: 5%;
 }
 
+.burgers:hover {
+     background-color: #03A9F4;	
+}
+
 .vapes {
     width: 100%;
 }
 
+.vapes:hover {
+     background-color: #03A9F4;	
+}
+
 .cocktails {
     width: 100%;
+}
+
+.cocktails:hover {
+	background-color: #03A9F4;
 }
 
 .number {
