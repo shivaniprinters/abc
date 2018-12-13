@@ -102,10 +102,10 @@ article {
   bottom: 0;
   width: 100%;
   padding: 10px;
-  color: White;
+  color: black;
   font-size: 18px;
   /*font-weight: 550;*/
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(255, 255, 255, 0.8);
   
 }
 
