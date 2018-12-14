@@ -10,3 +10,4 @@ Download in medium quality
 Compression
 https://kraken.io/web-interface
 
+http://blog.dynamicdrive.com/5-brilliant-ways-to-lazy-load-images-for-faster-page-loads/
