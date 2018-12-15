@@ -72,29 +72,27 @@
 			<div class="slide-viewer">
 				<div class="slides">
 					<div class="slide slide-1">
-						<img src="img/compressed/2.jpg" alt="">
+						<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="img/test1/1.jpg" alt="">
 					</div>
 					<div class="slide slide-2">
-						<img src="img/compressed/3.jpg" alt="">
+						<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="img/test1/2.jpg" alt="">
 					</div>
 					<div class="slide slide-3">
-						<img src="img/compressed/4.jpg" alt="">
+						<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="img/test1/3.jpg" alt="">
 					</div>
 					<div class="slide slide-4">
-						<img src="img/compressed/5.jpg" alt="">
+						<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="img/test1/4.jpg" alt="">
 					</div>
 					<div class="slide slide-5">
-						<img src="img/compressed/6.jpg" alt="">
+						<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="img/test1/5.jpg" alt="">
 					</div>
 					<div class="slide slide-6">
-						<img src="img/compressed/7.jpg" alt="">
+						<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="img/test1/6.jpg" alt="">
 					</div>
 					<div class="slide slide-7">
-						<img src="img/compressed/8.jpg" alt="">
+						<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="img/test1/7.jpg" alt="">
 					</div>
-					<div class="slide slide-8">
-						<img src="img/compressed/9.jpg" alt="">
-					</div>
+					
 				</div>
 			</div>
 
@@ -170,7 +168,7 @@
 						<div class="column2">
 							<table class="cocktails">
 								<tr>
-								   <th class="number">2</th>
+								   <th class="number">3</th>
 								   <th>We also provide</th>
 								</tr>
 								<tr>
@@ -610,7 +608,16 @@
  </div>
  <!--End of Sections-->
 
-
+ <script>
+	window.addEventListener('load', function(){
+		var allimages= document.getElementsByTagName('img');
+		for (var i=0; i<allimages.length; i++) {
+			if (allimages[i].getAttribute('data-src')) {
+				allimages[i].setAttribute('src', allimages[i].getAttribute('data-src'));
+			}
+		}
+	}, false)
+ </script>
  <script src="js/menu.js" charset="utf-8"></script>
  <script src="js/slider.js" charset="utf-8"></script>
  <script src="js/scrollanimate.js" charset="utf-8"></script>
