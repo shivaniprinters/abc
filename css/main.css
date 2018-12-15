@@ -9,10 +9,10 @@ html, body {
    src: url("https://raw.githubusercontent.com/daysleeperx/cloud_bar/master/img/Kankin.ttf");
 }
 
-@font-face {
+/*@font-face {
    font-family: "SourceSansPro";
    src: url("source-sans-pro/SourceSansPro-Regular.otf");
-}
+}*/
 
 @font-face {  /*For IE*/
     font-family: "Kankin";
@@ -106,7 +106,7 @@ h1 {
     letter-spacing: 0.03em;
     line-height: 1.5em;
     font-size: 16pt;
-	font-family: SourceSansPro;
+	font-family: 'Helvetica', 'Arial', sans-serif;
 	
 }
 
@@ -114,7 +114,7 @@ h1 {
     text-align: justify;
     letter-spacing: 0.03em;
     line-height: 1.5em;
-	font-family: SourceSansPro;
+	font-family: 'Helvetica', 'Arial', sans-serif;
     font-size: 16pt;
 }
 
@@ -227,7 +227,7 @@ h4 {
     margin: 0;
     letter-spacing: 0.08em;
 	font-size: 25px;
-	font-family: SourceSansPro;
+	font-family: 'Helvetica', 'Arial', sans-serif;
 }
 
 th, td {
