@@ -598,6 +598,7 @@ textarea:focus, input:focus {
 
 
 .slider {
+  background: black;
   top: 93px;
   position: relative;
   width: 100%;
