@@ -734,7 +734,7 @@ header.nav-holder.sticky {
 #navbar .menu-large .megamenu {
   padding: 20px;
   width: 100%;
-  max-width: 1140px;
+  max-width: 800px;
   left: 50%;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
@@ -877,12 +877,21 @@ header.nav-holder.sticky {
   color: #fff !important;
 }
 
+.btn-template-outlined-white-mod {
+  background: #4fbfa8;
+  color: #fff !important;
+  border: 1px solid #4fbfa8 !important;
+  border-radius: 0 !important;
+  text-decoration: none;
+}
+
+
 .btn-template-outlined-white {
   background: none;
   border: 1px solid #fff !important;
   color: #fff;
   border-radius: 0 !important;
-  text-decoration: none;
+  text-decoration: none;*/
 }
 
 .btn-template-outlined-white:hover, .btn-template-outlined-white:focus {
@@ -1367,7 +1376,7 @@ header.nav-holder.sticky {
   position: absolute;
   top: 0;
   left: 0;
-  background: rgba(79, 191, 168, 0.6);
+  background: rgba(79, 191, 168, 0.9);
   padding: 20px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
