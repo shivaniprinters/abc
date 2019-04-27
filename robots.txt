@@ -1,4 +1,5 @@
 User-Agent: *
 Disallow: 
+Disallow: /404.html
 
 Sitemap: https://www.shivaniprinters.org/sitemap.xml
