@@ -2129,13 +2129,26 @@ ul ul a.nav-link {
 .get-it {
   background: #4fbfa8;
   color: #fff;
-  padding: 50px 0;
+  padding: 40px 0;
 }
 
 .get-it h3 {
   text-transform: uppercase;
   letter-spacing: 0.1em;
   margin: 0;
+}
+
+.get-it1 {
+  background: #2196F3;
+  color: #fff;
+  padding: 15px 0;
+}
+
+.get-it1 h3 {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin: 0;
+  text-align: left
 }
 
 footer.main-footer {
